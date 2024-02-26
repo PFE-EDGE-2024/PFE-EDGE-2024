@@ -1,0 +1,46 @@
+[{
+    "meta": {
+      "version": "1.0",
+      "description": "Contrat JSON pour le projet de bassin de culture de Spiruline"
+    },
+    "data": {
+      "sensors": {
+        "camera_endoscope": {
+          "type": "string",
+          "value": ""  
+        },
+        "WaterLevel": {
+          "type": "float",
+          "unity": "cm",
+          "value": "levelwater"  
+        },
+        "pH": {
+          "type": "float",
+          "unity": "pH",
+          "value": "phValue"  
+        },
+        "conductivity": {
+          "type": "float",
+          "unity": "µS/cm",
+          "value": "ecValue" 
+        },
+        "temperature": {
+          "type": "float",
+          "unity": "°C",
+          "value": "temperature"  
+        }
+      },
+      "mesurement": {
+        "luminosity": {
+          "type": "float",
+          "unity": "lux",
+          "value": 0  
+        },
+        "biomasse": {
+          "type": "float",
+          "unity": "g/L",
+          "value": 0  
+        }
+      }
+    }
+}]

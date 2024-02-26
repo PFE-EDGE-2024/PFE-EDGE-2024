@@ -4,7 +4,7 @@ import time
 
 # Define broker address and topic
 broker_address = "mqtt.eclipseprojects.io"
-topic = "TEST"
+topic = "Spirulina_Edge"
 counter = 0
 
 def generate_sensor_data():

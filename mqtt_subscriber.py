@@ -6,7 +6,7 @@ import requests
 from weather_api_request import get_weather_data
 
 mqttBroker = "mqtt.eclipseprojects.io"
-topic="TEST"
+topic="Spirulina_Edge"
 
 # Function to handle received messages
 def client_side_execution(client, userdata, message):

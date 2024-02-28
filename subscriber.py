@@ -3,7 +3,7 @@ import json
 import logging
 import time 
 import requests
-from waether_api import get_weather_data
+from weather_api import get_weather_data
 
 # MQTT Broker configuration
 mqttBroker = "mqtt.eclipseprojects.io"

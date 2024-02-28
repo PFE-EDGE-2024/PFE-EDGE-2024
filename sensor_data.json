@@ -1,0 +1,14 @@
+{
+    "meta": {
+        "description": "Contrat JSON pour le projet de bassin de culture de Spiruline"
+    },
+    "data": {
+        "sensors": {
+            "temperature": 50,
+            "pH": 15,
+            "WaterLevel": 10,
+            "conductivity": 50,
+            "Brightness": 11
+        }
+    }
+}

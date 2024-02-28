@@ -13,12 +13,11 @@ def get_weather_data(latitude, longitude):
         return None
 
 if __name__ == "__main__":
-    berlin_latitude = 52.5200
-    berlin_longitude = 13.4050
-
-    weather_data = get_weather_data(berlin_latitude, berlin_longitude)
+    tunis_latitude = 36.8065
+    tunis_longitude = 10.1815
+    weather_data = get_weather_data(tunis_latitude, tunis_longitude)
     if weather_data:
-        print("Weather data for Berlin:")
+        print("Weather data for Tunis:")
         print(f"Temperature at 2m: {weather_data['hourly']['temperature_2m'][0]}°C")
         print(f"Precipitation: {weather_data['hourly']['precipitation'][0]} mm")
     else:
